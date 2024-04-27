@@ -13,6 +13,7 @@ public class Main {
         station.check(bicycle);
         station.check(truck2);
         station.check(car2);
+        station.check(truck);
 
     }
 }

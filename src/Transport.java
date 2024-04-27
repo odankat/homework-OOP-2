@@ -1,11 +1,11 @@
-public abstract class Transport extends Vehicle {
+public abstract class Transport  {
     private String modelName;
     private int wheelsCount;
+    public abstract void update();
 
-    public Transport(String modelName, int wheelsCount) {
-    }
-
-    protected Transport() {
+    protected Transport(String modelName, int wheelsCount) {
+        this.modelName = modelName;
+        this.wheelsCount = wheelsCount;
     }
 
     public String getModelName() {

@@ -3,8 +3,7 @@ public class Truck extends Transport {
     private int wheelsCount;
 
     public Truck(String modelName, int wheelsCount) {
-        this.modelName = modelName;
-        this.wheelsCount = wheelsCount;
+        super(modelName, wheelsCount);
     }
 
     public void update() {
@@ -14,10 +13,11 @@ public class Truck extends Transport {
     }
 
     public String getModelName() {
-        return modelName;
+        return super.getModelName();
     }
 
+    @Override
     public int getWheelsCount() {
-        return wheelsCount;
+        return super.getWheelsCount();
     }
 }
