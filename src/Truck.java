@@ -1,4 +1,4 @@
-public class Truck extends Update {
+public class Truck extends Transport {
     private String modelName;
     private int wheelsCount;
 

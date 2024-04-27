@@ -1,4 +1,4 @@
-public class Bicycle extends Update {
+public class Bicycle extends Transport {
     private String modelName;
     private int wheelsCount;
 
@@ -9,7 +9,7 @@ public class Bicycle extends Update {
 
 
     public void update() {
-        System.out.println("Меняем покрышки " + getWheelsCount());
+        System.out.println("Меняем покрышки " + this.getWheelsCount());
     }
 
     public String getModelName() {

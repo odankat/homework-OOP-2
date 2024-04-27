@@ -1,9 +1,9 @@
-public class Car extends Update {
+public class Car extends Transport {
     private String modelName;
     private int wheelsCount;
     public Car(String modelName, int wheelsCount) {
+        this.wheelsCount = wheelsCount;
         this.modelName = modelName;
-       this.wheelsCount = wheelsCount;
     }
 
     public void update() {

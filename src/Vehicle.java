@@ -1,4 +1,4 @@
-public abstract class Update {
+public abstract class Vehicle {
     public abstract void update();
 
 }
